@@ -1,0 +1,15 @@
+# Use anchors to configure and switch multiple databases. Examples:
+.pg_local: &pg_local
+  host: localhost
+  port: 0000
+  db: db
+  user: user
+  password: 'XXX'
+.pg_test: &pg_test
+  host: XXX.XXX.XX.XX
+  port: XXXXX
+  db: db
+  user: user
+  password: &pg_test_password 'XXX'
+
+postgres: *pg_local  # change reference here to switch database

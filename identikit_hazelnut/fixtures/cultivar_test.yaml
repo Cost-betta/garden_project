@@ -1,0 +1,187 @@
+- model: identikit_hazelnut.allele
+  pk: 300
+  fields:
+    allele_1: 5/
+    allele_2: 11
+
+- model: identikit_hazelnut.allele
+  pk: 301
+  fields:
+    allele_1: 8/
+    allele_2: 32
+
+- model: identikit_hazelnut.allele
+  pk: 302
+  fields:
+    allele_1: 15/
+    allele_2: 22
+
+- model: identikit_hazelnut.allele
+  pk: 303
+  fields:
+    allele_1: 9
+    allele_2: 20/
+
+- model: identikit_hazelnut.allele
+  pk: 304
+  fields:
+    allele_1: 2
+    allele_2: 6/
+
+
+- model: identikit_hazelnut.leaf
+  pk: 300
+  fields:
+    color: UNKNOWN
+    description: ""
+
+- model: identikit_hazelnut.leaf
+  pk: 301
+  fields:
+    color: UNKNOWN
+    description: ""
+
+- model: identikit_hazelnut.leaf
+  pk: 302
+  fields:
+    color: UNKNOWN
+    description: ""
+
+- model: identikit_hazelnut.leaf
+  pk: 303
+  fields:
+    color: UNKNOWN
+    description: ""
+
+- model: identikit_hazelnut.leaf
+  pk: 304
+  fields:
+    color: UNKNOWN
+    description: ""
+
+
+- model: identikit_hazelnut.nut
+  pk: 300
+  fields:
+    shape: UNKNOWN
+    length: null
+    width: null
+    thickness: null
+    kernel_yield: null
+    shell_thickness: null
+    weight: null
+    kernel_skin: null
+    description: ""
+
+- model: identikit_hazelnut.nut
+  pk: 301
+  fields:
+    shape: UNKNOWN
+    length: null
+    width: null
+    thickness: null
+    kernel_yield: null
+    shell_thickness: null
+    weight: null
+    kernel_skin: null
+    description: ""
+
+- model: identikit_hazelnut.nut
+  pk: 302
+  fields:
+    shape: UNKNOWN
+    length: null
+    width: null
+    thickness: null
+    kernel_yield: null
+    shell_thickness: null
+    weight: null
+    kernel_skin: null
+    description: ""
+
+- model: identikit_hazelnut.nut
+  pk: 303
+  fields:
+    shape: UNKNOWN
+    length: null
+    width: null
+    thickness: null
+    kernel_yield: null
+    shell_thickness: null
+    weight: null
+    kernel_skin: null
+    description: ""
+
+- model: identikit_hazelnut.nut
+  pk: 304
+  fields:
+    shape: UNKNOWN
+    length: null
+    width: null
+    thickness: null
+    kernel_yield: null
+    shell_thickness: null
+    weight: null
+    kernel_skin: null
+    description: ""
+
+
+- model: identikit_hazelnut.cultivar
+  pk: 300
+  fields:
+    name: Test 0
+    country: POLAND
+    region: CENTRAL_EUROPEAN
+    description: ""
+    famous: null
+    allele: 300
+    leaf: 300
+    nut: 300
+
+- model: identikit_hazelnut.cultivar
+  pk: 301
+  fields:
+    name: Test 1
+    country: ALBANIA
+    region: OTHER
+    description: ""
+    famous: null
+    allele: 301
+    leaf: 301
+    nut: 301
+
+- model: identikit_hazelnut.cultivar
+  pk: 302
+  fields:
+    name: Test 2
+    country: SPAIN
+    region: SPANISH_ITALIAN
+    description: ""
+    famous: null
+    allele: 302
+    leaf: 302
+    nut: 302
+
+- model: identikit_hazelnut.cultivar
+  pk: 303
+  fields:
+    name: Test 3
+    country: ESTONIA
+    region: CENTRAL_EUROPEAN
+    description: ""
+    famous: null
+    allele: 303
+    leaf: 303
+    nut: 303
+
+- model: identikit_hazelnut.cultivar
+  pk: 304
+  fields:
+    name: Test 4
+    country: CHILE
+    region: SPANISH_ITALIAN
+    description: ""
+    famous: null
+    allele: 304
+    leaf: 304
+    nut: 304
